@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:none ;
+}
+nav#top-container{
+    background: fixed black;
+    padding: 5px;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+}
+#logo-container{
+    padding: 3px;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: inline;
+    float: left;
+    border-radius:5px ;
+}
+#logo-container:hover{
+    background:rgba(255, 255, 255, 0.08)
+}
+#logo{
+    color: white;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+#button-container{
+    padding:3px;
+    margin: 3px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
+    align-items:center;
+    border-radius: 5px;
+    position: relative;
+    left: 570px;
+}
+#signup-button{
+    padding:3px;
+    margin:4px;
+    border: 1px;
+    border-radius:5px;
+    background:white;
+    width: 80px;
+    height: 100%;
+}
+#signup-button:hover{
+    background:whitesmoke;
+}
+#signup-text{
+    color:black;
+    padding:5px;
+    margin:0px;
+    border:0px;
+}
+#login-button{
+    padding:3px;
+    margin:4px;
+    border: 1px;
+    border-radius:5px;
+    background:white;
+    width: 80px;
+    height: 100%;
+}
+#login-button:hover{
+    background:whitesmoke;
+}
+#login-text{
+    color:black;
+    padding:5px;
+    margin:0px;
+    border:0px;
+}
+#searchbox-container{
+    padding:3px;
+    margin:0px;
+    border:0px;
+    border-radius: 5px;
+    width: 30%;
+    display: flex;
+    position: relative;
+    left:250px ;
+}
+#searchbox{
+    height: 100%;
+    width: 100%;
+    margin: 2px;
+    border: 0px;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+#searchbutton{
+    background: whitesmoke;
+    margin: 2px;
+    border: 0px;
+    border-radius: 5px;
+    height:95%;
+    width: 12%;
+}
