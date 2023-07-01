@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<style>
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(0, 0, 0, 0.788);
+    text-decoration: none;
+}
+#signup-container{
+    display: block;
+    background:black;
+    position: relative;
+    left: 350px;
+    right: 350px;
+    top: 50px;
+    bottom: 50px;
+    width: 600px;
+    height: 550px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+#logo-container{
+    position: relative;
+    left: 208px;
+    top: 25px;
+    right: 210px;
+    padding: 3px;
+    width: 180px;
+    height: 70px;
+    border-radius: 5px;
+}
+#logo-container:hover{
+    background:rgba(255, 255, 255, 0.08);
+}
+#logo{
+    color: white;
+    font-size: 50px;
+}
+#signup-text-container{
+    position: relative;
+    right: 0px;
+    left: 235px;
+    top: 25px;
+    padding:2px;
+    width: 114px;
+}
+#signup-text{
+    color: white;
+    font-size: 30px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif
+}
+#form-container{
+    position: relative;
+    top: 30px;
+    margin-left: 0px;
+    left: 50px;
+    margin-right: 0px;
+    right: 0px;
+    width: 450px;
+}
+#name-text-container{
+    padding: 4px;
+    width: 75px;
+}
+#name-text{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 2px;
+}
+#namebox-container{
+    padding: 2px;
+    width: 500px;
+    height: 35px;
+}
+#namebox{
+    width: 90%;
+    height: 100%;
+    border: 0px;
+    border-radius: 2px;
+    background: whitesmoke;
+}
+::placeholder{
+    color: #caff;
+}
+#email-text-container{
+    padding: 4px;
+    width: 100px;
+    margin-top: 20px;
+}
+#email-text{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 2px;
+}
+#emailbox-container{
+    padding: 2px;
+    width: 500px;
+    height: 35px;
+}
+#emailbox{
+    width: 90%;
+    height: 100%;
+    border: 0px;
+    border-radius: 2px;
+    background: whitesmoke;
+}
+#password-text-container{
+    padding: 4px;
+    width: 75px;
+    margin-top: 20px;
+}
+#password-text{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 2px;
+}
+#passwordbox-container{
+    padding: 2px;
+    width: 500px;
+    height: 35px;
+}
+#passwordbox{
+    width: 90%;
+    height: 100%;
+    border: 0px;
+    border-radius: 2px;
+    background: whitesmoke;
+}
+#login-text-container{
+    padding: 4px;
+    width: 233px;
+    position: relative;
+    top: 50px;
+}
+#login-text{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 2px;
+}
+#next-button-container{
+    width: 88px;
+    position: relative;
+    left: 90%;
+    top: 60px;
+}
+#next-button{
+    padding:3px;
+    margin:4px;
+    border: 1px;
+    border-radius:5px;
+    background:white;
+    width: 80px;
+    height: 100%;
+}
+#next-button:hover{
+    background:whitesmoke;
+}
+#next-text{
+    color:black;
+    padding:5px;
+    margin:0px;
+    border:0px;
+}
+</style>
+<body>
+    <div id="signup-container">
+        <div id="logo-container">
+            <a href="amuzic.html"><span id="logo">AmuZic</span></a>
+        </div>
+        <div id="signup-text-container">
+            <span id="signup-text">Sign Up</span>
+        </div>
+        <div id="form-container">
+            <form action="">
+                <div id="name-text-container">
+                    <span id="name-text">Full name</span>
+                </div>
+                <div id="namebox-container">
+                    <input type="text" id="namebox" required placeholder="Enter your full name">
+                </div>
+                <div id="email-text-container">
+                    <span id="email-text">Email address</span>
+                </div>
+                <div id="emailbox-container">
+                    <input type="email" id="emailbox" required placeholder="Enter your email address">
+                </div>
+                <div id="password-text-container">
+                    <span id="password-text">Password</span>
+                </div>
+                <div id="passwordbox-container">
+                    <input type="password" id="passwordbox" required placeholder="Enter your password">
+                </div>
+                <div id="login-text-container">
+                    <span id="login-text">Already have an account?<a href="login.html">click here</a></span>
+                </div>
+                <div id="next-button-container">
+                    <button id="next-button">
+                        <a href="#"><span id="next-text">Next</span></a>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
